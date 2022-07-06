@@ -9,7 +9,10 @@
             btn.textContent='大吉';
         } else if(n<0.2){
             btn.textContent='中吉';
-        }else{
+        } else if(n>0.5)  {
+            btn.textContent='小吉';
+            
+        } else{
             btn.textContent='凶';
 
         }
